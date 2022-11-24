@@ -2,19 +2,17 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Madista</title>
+	<title>Menù Lateral con Css</title>
 	<link rel="stylesheet" href="estilos.css">
 </head>
-
 <body>
-
 	<header class="header">
 		<div class="container">
 		<div class="btn-menu">
 			<label for="btn-menu">☰</label>
 		</div>
 			<div class="logo">
-				<h1>Home Madista</h1>
+				<h1>Inventario de Productos Madista</h1>
 
 	</header>
 	<div class="capa"></div>
@@ -23,7 +21,7 @@
 <div class="container-menu">
 	<div class="cont-menu">
 		<nav>
-			<a href="home.php">Home</a>
+      <a href="home.php">Home</a>
 			<a href="inventarioproductos.php">Inventario de Productos</a>
 			<a href="inventariodesuministros.php">Inventario de Suministro</a>
 			<a href="compras.php">compras</a>

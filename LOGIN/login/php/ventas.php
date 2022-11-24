@@ -14,7 +14,7 @@
 			<div class="logo">
 				<h1>Ventas Madista</h1>
 			</div>
-		   
+
 		</div>
 	</header>
 	<div class="capa"></div>
@@ -23,7 +23,8 @@
 <div class="container-menu">
 	<div class="cont-menu">
 		<nav>
-			<a href="home.php">Inventario de Productos</a>
+			<a href="home.php">Home</a>
+			<a href="inventarioproductos.php">Inventario de Productos</a>
 			<a href="inventariodesuministros.php">Inventario de Suministro</a>
 			<a href="compras.php">compras</a>
 			<a href="ventas.php">ventas</a>
