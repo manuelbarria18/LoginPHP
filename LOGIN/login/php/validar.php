@@ -5,7 +5,7 @@ session_start();
 
 $_SESSION['nombre_usuario']=$nombre;
 
-$conexion=mysqli_connect("localhost","root","","madista");
+$conexion=mysqli_connect("localhost","root","","madistaw");
 
 $consulta="SELECT* FROM  usuarios where nombre_usuario='$nombre' and contrasena_usuario='$contrasena'";
 $resultado=mysqli_query($conexion,$consulta);
