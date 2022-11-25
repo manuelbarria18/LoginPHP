@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Menù Lateral con Css</title>
+	<title>Madista Compras</title>
 	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
