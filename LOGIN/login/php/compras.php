@@ -82,29 +82,38 @@
 				</div>
 		  	</div>
 		</div>
-		<br>
+<br>
 		<div class="columns">
 		  	<div class="column">
 		    	<div class="control">
 				<FONT SIZE=6 COLOR="white"><label>Proveedor ID</label></FONT>
-				  	<input style='width:200px; height:27px' class="input" type="text" name="usuario_clave_1" pattern="[a-zA-Z0-9$@.-]{7,100}" maxlength="100" required >
-				</div>
-		  	</div>
-				<br>
-		  	<div class="column">
-		    	<div class="control">
-					<FONT SIZE=6 COLOR="white"><label>Cantidad</label></FONT>
-				  	<input style='width:200px; height:27px' class="input" type="text" name="usuario_clave_2" pattern="[a-zA-Z0-9$@.-]{7,100}" maxlength="100" required >
-				</div>
-		  	</div>
-		</div>
+
+		  			     	<div class="select is-rounded">
+						  	<select  style='width:200px; height:27px' name="proveedor_id" >
+						    	<option value="" selected="" >Seleccione una opción</option>
+								</div>
+							 </div>
+
+						    	<?php
+		    						$categorias=conexion();
+		    						$categorias=$categorias->query("SELECT * FROM proveedores");
+		    						if($categorias->rowCount()>0){
+		    							$categorias=$categorias->fetchAll();
+		    							foreach($categorias as $row){
+		    								echo '<option value="'.$row['proveedor_id'].'" >'.$row['proveedor_id'].'</option>';
+						    			}
+						   			}
+						   			$categorias=null;
+                     ?>
+									 </div>
+
+		<br>
 		<br>
 		<br>
 		<p class="has-text-centered">
 			<button style='width:200px; height:50px' type="submit" class="button is-info is-rounded">Guardar</button>
 		</p>
 	</form>
-</div>
 
 </body>
 </html>
