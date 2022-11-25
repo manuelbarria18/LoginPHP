@@ -53,7 +53,7 @@
 		    	<div class="control">
 					<FONT SIZE=6 COLOR="white"><label>Compra ID</label></FONT>
 
-				  	<input class="input" type="text" name="usuario_nombre" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
+				  	<input style='width:200px; height:27px' class="input" type="text" name="usuario_nombre" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
 				</div>
 		  	</div>
 				<br>
@@ -61,7 +61,7 @@
 		    	<div class="control">
 						<FONT SIZE=6 COLOR="white"><label>Codigo Compra</label></FONT>
 
-				  	<input class="input" type="text" name="usuario_apellido" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
+				  	<input style='width:200px; height:27px' class="input" type="text" name="usuario_apellido" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
 				</div>
 		  	</div>
 		</div>
@@ -71,14 +71,14 @@
 		    	<div class="control">
 						<FONT SIZE=6 COLOR="white"><label>Producto ID</label></FONT>
 
-				  	<input class="input" type="text" name="usuario_usuario" pattern="[a-zA-Z0-9]{4,20}" maxlength="20" required >
+				  	<input style='width:200px; height:27px' class="input" type="text" name="usuario_usuario" pattern="[a-zA-Z0-9]{4,20}" maxlength="20" required >
 				</div>
 		  	</div>
 				<br>
 		  	<div class="column">
 		    	<div class="control">
 					<FONT SIZE=6 COLOR="white"><label>Insumo ID</label></FONT>
-				  	<input class="input" type="email" name="usuario_email" maxlength="70" >
+				  	<input style='width:200px; height:27px' class="input" type="email" name="usuario_email" maxlength="70" >
 				</div>
 		  	</div>
 		</div>
@@ -87,17 +87,18 @@
 		  	<div class="column">
 		    	<div class="control">
 				<FONT SIZE=6 COLOR="white"><label>Proveedor ID</label></FONT>
-				  	<input class="input" type="text" name="usuario_clave_1" pattern="[a-zA-Z0-9$@.-]{7,100}" maxlength="100" required >
+				  	<input style='width:200px; height:27px' class="input" type="text" name="usuario_clave_1" pattern="[a-zA-Z0-9$@.-]{7,100}" maxlength="100" required >
 				</div>
 		  	</div>
 				<br>
 		  	<div class="column">
 		    	<div class="control">
 					<FONT SIZE=6 COLOR="white"><label>Cantidad</label></FONT>
-				  	<input class="input" type="text" name="usuario_clave_2" pattern="[a-zA-Z0-9$@.-]{7,100}" maxlength="100" required >
+				  	<input style='width:200px; height:27px' class="input" type="text" name="usuario_clave_2" pattern="[a-zA-Z0-9$@.-]{7,100}" maxlength="100" required >
 				</div>
 		  	</div>
 		</div>
+		<br>
 		<br>
 		<p class="has-text-centered">
 			<button style='width:200px; height:50px' type="submit" class="button is-info is-rounded">Guardar</button>
