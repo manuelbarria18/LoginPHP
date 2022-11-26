@@ -52,61 +52,67 @@
 		  	<div class="column">
 		    	<div class="control">
 					<FONT SIZE=6 COLOR="white"><label>Compra ID</label></FONT>
+	          <input style='width:200px; height:30px' class="input" type="text" name="usuario_apellido" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
 
-				  	<input style='width:200px; height:27px' class="input" type="text" name="usuario_nombre" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
-				</div>
-		  	</div>
+			 </div>
+		 	</div>
+		</div>
 				<br>
+				<br>
+				<br>
+			<div class="columns">
 		  	<div class="column">
 		    	<div class="control">
 						<FONT SIZE=6 COLOR="white"><label>Codigo Compra</label></FONT>
 
-				  	<input style='width:200px; height:27px' class="input" type="text" name="usuario_apellido" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
-				</div>
-		  	</div>
+				  	<input style='width:200px; height:30px' class="input" type="text" name="usuario_apellido" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
 		</div>
+		  </div>
+		    </div>
+		<br>
+		<br>
 		<br>
 		<div class="columns">
 		  	<div class="column">
 		    	<div class="control">
 						<FONT SIZE=6 COLOR="white"><label>Producto ID</label></FONT>
 
-				  	<input style='width:200px; height:27px' class="input" type="text" name="usuario_usuario" pattern="[a-zA-Z0-9]{4,20}" maxlength="20" required >
-				</div>
+						<select  style='width:200px; height:30px' name="insumos_id" >
+							<option value="" selected="" >Seleccione una opción</option>
+						</select>
+			</div>
 		  	</div>
+					</div>
 				<br>
-		  	<div class="column">
+				<br>
+				<br>
+				<div class="columns">
+		  	 <div class="column">
 		    	<div class="control">
-					<FONT SIZE=6 COLOR="white"><label>Insumo ID</label></FONT>
-				  	<input style='width:200px; height:27px' class="input" type="email" name="usuario_email" maxlength="70" >
+					<FONT SIZE=6 COLOR="white"><label>Insumo_ID</label></FONT>
+
+				<select  style='width:200px; height:30px' name="insumos_id" >
+          <option value="" selected="" >Seleccione una opción</option>
+         </select>
+
 				</div>
-		  	</div>
+		  </div>
 		</div>
 <br>
+<br>
+S<br>
 		<div class="columns">
 		  	<div class="column">
 		    	<div class="control">
 				<FONT SIZE=6 COLOR="white"><label>Proveedor ID</label></FONT>
 
-		  			     	<div class="select is-rounded">
-						  	<select  style='width:200px; height:27px' name="proveedor_id" >
+						  	<select  style='width:200px; height:30px' name="proveedor_id" >
 						    	<option value="" selected="" >Seleccione una opción</option>
-								</div>
-							 </div>
+                 </select>
 
-						    	<?php
-		    						$categorias=conexion();
-		    						$categorias=$categorias->query("SELECT * FROM proveedores");
-		    						if($categorias->rowCount()>0){
-		    							$categorias=$categorias->fetchAll();
-		    							foreach($categorias as $row){
-		    								echo '<option value="'.$row['proveedor_id'].'" >'.$row['proveedor_id'].'</option>';
-						    			}
-						   			}
-						   			$categorias=null;
-                     ?>
 									 </div>
-
+	             </div>
+				 </div>
 		<br>
 		<br>
 		<br>
