@@ -100,7 +100,7 @@
 		</div>
 <br>
 <br>
-S<br>
+<br>
 		<div class="columns">
 		  	<div class="column">
 		    	<div class="control">
