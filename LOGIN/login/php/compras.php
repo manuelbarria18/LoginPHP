@@ -89,7 +89,7 @@
 				<div class="columns">
 		  	 <div class="column">
 		    	<div class="control">
-					<FONT SIZE=6 COLOR="white"><label>Insumo_ID</label></FONT>
+					<FONT SIZE=6 COLOR="white"><label>Insumo ID</label></FONT>
 
 				<select  style='width:200px; height:30px' name="insumos_id" >
           <option value="" selected="" >Seleccione una opción</option>
@@ -120,6 +120,8 @@
 			<button style='width:200px; height:50px' type="submit" class="button is-info is-rounded">Guardar</button>
 		</p>
 	</form>
+
+
 
 </body>
 </html>
