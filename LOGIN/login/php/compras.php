@@ -76,11 +76,10 @@
 	 	<div class="columns">
 		  	<div class="column">
 		    	<div class="control">
-						<FONT SIZE=6 COLOR="white"><label>Unidad de Compra</label></FONT>
+						<FONT SIZE=6 COLOR="white"><label>Referencia de Compra</label></FONT>
 
-						<select  style='width:200px; height:30px' name="referencia_compra" >
-							<option value="" selected="" >Seleccione una opción</option>
-						</select>
+<input style='width:200px; height:30px' class="input" type="text" name="usuario_apellido" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
+
 			</div>
 		  	</div>
 					</div>
@@ -116,12 +115,10 @@
 		<br>
 		<br>
 		<br>
-		<p class="has-text-centered">
-			<button style='width:200px; height:50px' type="submit" class="button is-info is-rounded">Guardar</button>
+		<p
+		   class="has-text-centered">
+			<button style='width:200px; height:50px' type="submit"  class="button is-info is-rounded" href="compras_confirmacion.php" >Guardar</button>
+
 		</p>
-	</form>
-
-
-]
 </body>
 </html>
