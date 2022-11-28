@@ -51,7 +51,7 @@
 		<div class="columns">
 		  	<div class="column">
 		    	<div class="control">
-					<FONT SIZE=6 COLOR="white"><label>Compra ID</label></FONT>
+					<FONT SIZE=6 COLOR="white"><label>Nombre del Producto</label></FONT>
 	          <input style='width:200px; height:30px' class="input" type="text" name="usuario_apellido" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
 
 			 </div>
@@ -63,7 +63,7 @@
 			<div class="columns">
 		  	<div class="column">
 		    	<div class="control">
-						<FONT SIZE=6 COLOR="white"><label>Codigo Compra</label></FONT>
+						<FONT SIZE=6 COLOR="white"><label>Cantidad</label></FONT>
 
 				  	<input style='width:200px; height:30px' class="input" type="text" name="usuario_apellido" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
 		</div>
@@ -72,12 +72,13 @@
 		<br>
 		<br>
 		<br>
-		<div class="columns">
+
+	 	<div class="columns">
 		  	<div class="column">
 		    	<div class="control">
-						<FONT SIZE=6 COLOR="white"><label>Producto ID</label></FONT>
+						<FONT SIZE=6 COLOR="white"><label>Unidad de Compra</label></FONT>
 
-						<select  style='width:200px; height:30px' name="insumos_id" >
+						<select  style='width:200px; height:30px' name="referencia_compra" >
 							<option value="" selected="" >Seleccione una opción</option>
 						</select>
 			</div>
@@ -89,11 +90,9 @@
 				<div class="columns">
 		  	 <div class="column">
 		    	<div class="control">
-					<FONT SIZE=6 COLOR="white"><label>Insumo ID</label></FONT>
+					<FONT SIZE=6 COLOR="white"><label>Precio</label></FONT>
 
-				<select  style='width:200px; height:30px' name="insumos_id" >
-          <option value="" selected="" >Seleccione una opción</option>
-         </select>
+					<input style='width:200px; height:30px' class="input" type="text" name="usuario_apellido" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
 
 				</div>
 		  </div>
@@ -104,7 +103,7 @@
 		<div class="columns">
 		  	<div class="column">
 		    	<div class="control">
-				<FONT SIZE=6 COLOR="white"><label>Proveedor ID</label></FONT>
+				<FONT SIZE=6 COLOR="white"><label>Proveedor</label></FONT>
 
 						  	<select  style='width:200px; height:30px' name="proveedor_id" >
 						    	<option value="" selected="" >Seleccione una opción</option>
@@ -113,6 +112,7 @@
 									 </div>
 	             </div>
 				 </div>
+
 		<br>
 		<br>
 		<br>
@@ -122,6 +122,6 @@
 	</form>
 
 
-
+]
 </body>
 </html>
