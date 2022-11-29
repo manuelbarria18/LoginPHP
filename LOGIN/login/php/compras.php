@@ -37,7 +37,7 @@
 <br>
 <br>
 <div class="container is-fluid mb-6">
-	<FONT SIZE=6 COLOR="white"><h1 class="title"><h2 class="subtitle">Registrar Nueva Orden de Compra</h2></h1></FONT>
+	<FONT SIZE=5 COLOR="white"><h1 class="title"><h2 class="subtitle">Registrar Nueva Orden de Compra</h2></h1></FONT>
 
 </div>
 <br>
