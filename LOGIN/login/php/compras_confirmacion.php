@@ -35,6 +35,5 @@
 <!--	--------------->
 
 <script type="text/javascript">
-    alert(SIZE=4 "Orden de compra Registrada Exitosamente");
-
+    alert("Orden de compra Registrada Exitosamente");
 </script>'
