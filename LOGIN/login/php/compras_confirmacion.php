@@ -37,3 +37,5 @@
 <script type="text/javascript">
     alert("Orden de compra Registrada Exitosamente");
 </script>'
+
+<!--	--------------->
