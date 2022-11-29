@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Registro de Compras</title>
+	<title>Menù Lateral con Css</title>
 	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
 			<label for="btn-menu">☰</label>
 		</div>
 			<div class="logo">
-				<h1>Orden de Compra Registrada</h1>
+				<h1>Suministro existente</h1>
 
 	</header>
 	<div class="capa"></div>
@@ -33,8 +33,3 @@
 </body>
 </html>
 <!--	--------------->
-
-<script type="text/javascript">
-    alert(SIZE=4 "Orden de compra Registrada Exitosamente");
-
-</script>'
